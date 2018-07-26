@@ -17,15 +17,18 @@ A continuación se muestra el prototipo de baja fidelidad de la web-app.
 #### Prototipo de alta fidelidad.
 
 En la vista principal se muestran todos los restaurantes "cerca de ti" junto
-con el input para filtrar tu elección 
+con el input para filtrar tu elección.
+
 ![vista principal](img/altaFidelidad1.jpg)
 
 Una vez que la elección del filtro fue realizada de muestran únicamente aquellos
 restaurantes que cumplen con tu condición de búsqueda.
+
 ![vista filtrado](img/altaFidelidad2.jpg)
 
 Al seleccionar alguno de los restaurantes, muestra la información de
 este a través de un modal. Una vez cerrado el modal vuelve a la vista principal.
+
 ![modal imagen](img/altaFidelidad3.jpg)
 
 
