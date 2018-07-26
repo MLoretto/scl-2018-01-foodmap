@@ -1,9 +1,9 @@
 body { 
-    background: url(../img/fondoPrincipal.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url(../img/fondoPrincipal.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 .splash{
   width: 100%;
@@ -27,13 +27,13 @@ body {
   border-radius: 50%;
 }
 .turn1{
- width: 70px;
- height: 70px;
- left: -35px;
- top: -10px;
- border-top: 5px solid white;
- border-bottom: 5px solid white;
- animation: turnTurn 2s linear infinite;
+  width: 70px;
+  height: 70px;
+  left: -35px;
+  top: -10px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  animation: turnTurn 2s linear infinite;
 }
 .turn2{
   width: 60px;
