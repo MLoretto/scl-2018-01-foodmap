@@ -3,7 +3,7 @@
 FOODMAP es una web-app que a través de un input puedes filtrar los restaurantes
 que se encuentran cerca de ti, de forma dinámica muestra tu ubicación en el mapa y todos los locales comerciales de comida cercanos, puedes filtrar según tu criterio de búsqueda y acceder a la información de cada uno de ellos, obteniendo nombre, dirección, raigtin, página web, cada uno de estos datos será mostrado si están disponibles en la API de Google.
 
-Para acceder a la página, haz click [aquí.](https://mloretto.github.io/scl-2018-01-foodmap/html/main.html)
+Para acceder a la página, haz click [aquí.](https://mloretto.github.io/scl-2018-01-foodmap)
 
 #### Planificación Proyecto.
 
