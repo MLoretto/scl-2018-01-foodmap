@@ -1,0 +1,54 @@
+body { 
+    background: url(../img/fondoPrincipal.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.splash{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.cargando{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+
+}
+.turn1,.turn2{
+  position: absolute;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+.turn1{
+ width: 70px;
+ height: 70px;
+ left: -35px;
+ top: -10px;
+ border-top: 5px solid white;
+ border-bottom: 5px solid white;
+ animation: turnTurn 2s linear infinite;
+}
+.turn2{
+  width: 60px;
+  height: 60px;
+  border-left: 5px solid greenyellow; /* cambiar color*/
+  border-right: 5px solid greenyellow;
+  left: -30px;
+  top: -5px;
+  animation: severlaTurnTurn 2s linear infinite;
+}
+@keyframes turnTurn{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+@keyframes severlaTurnTurn{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(-360deg);}
+}
