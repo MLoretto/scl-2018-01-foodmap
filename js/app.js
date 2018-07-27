@@ -146,7 +146,7 @@ function crearListado(place) {
 */
      let contenedor = document.getElementById('lugares');
      let divItem = document.createElement('div');
-     divItem.classList = 'row itemRest';
+     divItem.classList = 'row itemRest align-items-center';
      let divImg = document.createElement('div');
      divImg.classList = 'col-5';
      let img = document.createElement('img');
