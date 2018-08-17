@@ -40,7 +40,13 @@ border-radius: 5px;
 .btnColor:hover{
   background-color: #535251;
 }
-
 a{
   color:#535251;
+}
+.imgPopModal{
+  border-radius: 5px;
+  text-align: center;
+}
+.imgPost{
+  border-radius: 5px;
 }
