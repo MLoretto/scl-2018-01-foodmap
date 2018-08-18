@@ -28,8 +28,13 @@ const crearListado = function (place) {
 
 const searchLocal = function () {
     let queryText = document.getElementById('txtSearch').value; 
-    console.log('busqueda: ' + queryText);
-    searchPlaces(queryText);
+    if(queryText === ''){
+        alert('Debe ingresar un filtro de búsqueda');
+    }else{
+        document.getElementById('txtSearch').value = '';
+        console.log('busqueda: ' + queryText);
+        searchPlaces(queryText);
+    }
 };
 const showModal = function (placeId) {
     service.getDetails({

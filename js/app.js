@@ -37,7 +37,6 @@ function initMap() {
     });
   });
 }
-
 function searchLocal(){ 
   let contenedor = document.getElementById('lugares');
   contenedor.innerText = '';
